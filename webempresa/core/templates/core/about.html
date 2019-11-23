@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Historia{% endblock %}
+
+{% block content %}
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/mensajeria.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Empresa familiar</span>
+              <span class="section-heading-lower">Nuestra historia</span>
+            </h2>
+            <p>Iniciamos partiendo de la necesidad observada en la población huehueteca para las compras en Huehuetenango, la ciudad Capital incluso en Estados Unidos  desde casa, siendo una empresa que da garantía y calidad en el servicio de entregas y compras. </p>
+            <p>Teniendo como misión el buen servicio, excelente garantía y rapidez en las entregas al cliente, para que tenga la confianza y certeza en esta nueva forma de compras realizadas desde su domicilio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
